@@ -71,6 +71,7 @@ li {
     background: #4BCE97;
     border-radius: 20px;
     position: relative;
+    cursor: pointer;
 }
 
 .signup a {
@@ -78,4 +79,196 @@ li {
     position: absolute;
     left: 38px;
     top: 13px;
+}
+
+.exchange__inner {
+    display: flex;
+}
+
+.exchange__description {
+    width: 532.5px;
+    height: 562px;
+    margin-right: 35px;
+}
+
+.exchange__description-title {
+    font-weight: 900;
+    font-size: 57px;
+    line-height: 66px;
+    color: #000000;
+    margin-bottom: 5px;
+}
+
+.exchange__description-text {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    color: #4E5155;
+}
+
+.exchange__description-ul ul {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 32px;
+}
+
+.exchange__description-ul ul li {
+    background-color: #e4e4e4;
+    color: #000;
+    height: 40px;
+    position: relative;
+    border-radius: 5px;
+}
+
+.exchange__description-ul ul li img {
+    position: absolute;
+    top: 12px;
+    left: 12px;
+}
+
+.exchange__description-ul ul li span {
+    position: absolute;
+    left: 36px;
+    top: 9px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.bitcoin {
+    width: 124px;
+}
+
+.tether {
+    width: 181px;
+    margin-left: 10px;
+}
+
+.ethereum {
+    width: 141px;
+    margin-left: 10px;
+}
+
+.litecoin {
+    width: 128px;
+    margin-top: 10px;
+}
+
+.ripple {
+    width: 120px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.visamastercard {
+    width: 264px;
+    position: relative;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.visaimg {
+    left: 15px;
+}
+
+.visa-span {
+    left: 54px !important;
+}
+
+.mastercardimg {
+    left: 102px !important;
+}
+
+.mastercard-span {
+    left: 136px !important;
+}
+
+.exchange__description-btn {
+    margin-top: 60px;
+    display: flex;
+}
+
+.exchange__description-btn button {
+    width: 162px;
+    height: 60px;
+    border: 3px solid #4BCE97;
+    border-radius: 20px;
+    background-color: transparent;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    text-align: center;
+    color: #000000;
+}
+
+.exchange__description-play {
+    margin-top: -8px;
+    margin-left: 50px;
+    position: relative;
+}
+
+.exchange__description-play span {
+    position: absolute;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 30px;
+    color: #3734A9;
+    width: 148px;
+    top: 22px;
+}
+
+.exchange__table {
+    padding: 32px 32px 16px;
+    width: 532.5px;
+    height: 611px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border: 1px solid #E1E3F0;
+    box-shadow: 0px 64px 194px rgba(0, 0, 0, 0.1);
+    border-radius: 30px;
+}
+
+.exchange__table-title {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 42px;
+    color: #000000;
+}
+
+.exchange__currencies {
+    padding: 16px 20px;
+    width: 468.5px;
+    height: 179px;
+    background: #FFFFFF;
+    border: 1px solid #B8CCF5;
+    border-radius: 10px;
+    position: relative;
+}
+
+.currencies-send__title,
+.currencies-get__title {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #4E5155;
+}
+
+.currencies-send__sum,
+.currencies-get__sum {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    color: #1D1D26;
+}
+
+.select__table {
+    display: flex;
+    align-items: center;
+    padding: 8px 12px;
+    background: #e4e4e4;
+    border: 1px solid #F3F4F8;
+    box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.03);
+    width: 115px;
+    height: 44px;
+    border-radius: 10px;
+    position: absolute;
+    right: 20px;
 }
