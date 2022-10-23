@@ -83,12 +83,15 @@ li {
 
 .exchange__inner {
     display: flex;
+    margin-left: 136px;
+    margin-top: 60px;
 }
 
 .exchange__description {
     width: 532.5px;
     height: 562px;
     margin-right: 35px;
+    margin-top: 24.5px;
 }
 
 .exchange__description-title {
@@ -224,6 +227,7 @@ li {
     border: 1px solid #E1E3F0;
     box-shadow: 0px 64px 194px rgba(0, 0, 0, 0.1);
     border-radius: 30px;
+    position: relative;
 }
 
 .exchange__table-title {
@@ -241,6 +245,16 @@ li {
     border: 1px solid #B8CCF5;
     border-radius: 10px;
     position: relative;
+    margin-top: 12px;
+}
+
+.exchange__currencies::before {
+    content: '';
+    position: absolute;
+    width: 428.5px;
+    height: 1px;
+    background: #B8CCF5;
+    top: 92px;
 }
 
 .currencies-send__title,
@@ -257,6 +271,7 @@ li {
     font-size: 24px;
     line-height: 32px;
     color: #1D1D26;
+    margin-bottom: 40px;
 }
 
 .select__table {
@@ -271,4 +286,133 @@ li {
     border-radius: 10px;
     position: absolute;
     right: 20px;
+    cursor: pointer;
+}
+
+.select__table-arrow {
+    margin-left: 18px;
+    margin-top: -4px;
+}
+
+.select__table-logo {
+    margin-top: 3px;
+}
+
+.select__table-btc {
+    top: 24px;
+}
+
+.select__table-eth {
+    bottom: 21px;
+}
+
+.select__table-name {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #1D1D26;
+    margin-left: 8px;
+}
+
+.exchange__table-input input {
+    padding: 0px 20px;
+    background: #FFFFFF;
+    border: 1px solid #B8CCF5;
+    border-radius: 10px;
+    width: 468.5px;
+    height: 64px;
+    margin-top: 12px;
+    outline: none;
+}
+
+.exchange__table-info {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 12px;
+}
+
+.exchange__info {
+    align-items: center;
+    padding: 8px 20px;
+    width: 148.17px;
+    height: 76px;
+    background: #FFFFFF;
+    border: 1px solid #F3F4F8;
+    box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.03);
+    border-radius: 10px;
+}
+
+.exchange__info-title {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #4E5155;
+}
+
+.exchange__info-sum {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18px;
+    color: #1D1D26;
+    margin-top: 5px;
+}
+
+.form-control {
+    display: flex;
+    margin-top: 54px;
+}
+
+.form-control p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #1D1D26;
+    margin-left: 11px;
+}
+
+.exchange__table-checkbox,
+.exchange__table-btn {
+    display: flex;
+}
+
+.exchange__table-btn button {
+    width: 192px;
+    height: 64px;
+    background: linear-gradient(92.87deg, #8175FE 6.77%, #2A67F4 100%);
+    box-shadow: 0px 4px 12px -1px rgba(29, 29, 38, 0.08);
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+    color: #FFFFFF;
+    position: absolute;
+    right: 28px;
+    bottom: 94px;
+}
+
+.exchange__table::after {
+    content: '';
+    position: absolute;
+    width: 468.5px;
+    height: 1px;
+    background: #D6D8E3;
+    bottom: 57px;
+}
+
+.exchange__table-footer {
+    display: flex;
+    margin-top: 68px;
+    margin-left: 100px;
+}
+
+.exchange__table-footer p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #4E5155;
+    margin-top: 3px;
+    margin-right: 10px;
 }
