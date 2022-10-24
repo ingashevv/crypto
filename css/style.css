@@ -416,3 +416,97 @@ li {
     margin-top: 3px;
     margin-right: 10px;
 }
+
+.benefits__inner {
+    margin-top: 120px;
+    width: 1099px;
+    margin-left: 136px;
+}
+
+.benefits__inner-title {
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 60px;
+    color: #000000;
+    margin-bottom: 60px;
+}
+
+.benefits__inner-items {
+    display: flex;
+    justify-content: space-between;
+}
+
+.benefits__item {
+    align-items: center;
+    padding: 32px;
+    width: 343px;
+    height: 230px;
+    background-color: rgba(255, 255, 255, 0.5);
+    box-shadow: 0px 64px 194px rgba(0, 0, 0, 0.1);
+    border-radius: 30px;
+    position: relative;
+}
+
+.benefits__item-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 30px;
+    color: #000000;
+    margin-top: 24px;
+}
+
+.benefits__item-text {
+    width: 300px;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 20px;
+    color: #4E5155;
+    margin-top: 8px;
+}
+
+.benefits__item-num {
+    position: absolute;
+}
+
+.currency-num {
+    width: 44px;
+    left: 243px;
+    top: -35px;
+    font-weight: 900;
+    font-size: 104px;
+    line-height: 204px;
+    background: linear-gradient(180deg, #3D4EE6 0%, rgba(61, 78, 230, 0) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    opacity: 0.1;
+}
+
+.deposit-num {
+    width: 57px;
+    left: 230px;
+    top: -35px;
+    font-weight: 900;
+    font-size: 104px;
+    line-height: 204px;
+    background: linear-gradient(180deg, #22D497 0%, rgba(34, 212, 151, 0) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    opacity: 0.1;
+}
+
+.coin-num {
+    width: 57px;
+    height: 204px;
+    left: 230px;
+    top: -35px;
+    font-weight: 900;
+    font-size: 104px;
+    line-height: 204px;
+    background: linear-gradient(180deg, #FF6160 0%, rgba(255, 97, 96, 0) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    opacity: 0.1;
+}
