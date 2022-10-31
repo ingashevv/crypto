@@ -767,3 +767,63 @@ li {
     height: 60px;
     border: none;
 }
+
+.reserves__inner {
+    margin: 120px 0;
+}
+
+.reserves__title {
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 60px;
+    color: #000000;
+    margin-left: 500px;
+    margin-bottom: 13px;
+}
+
+.reserves__text {
+    width: 640px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    margin-left: 400px;
+    margin-bottom: 60px;
+}
+
+.reserves__items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 1380px;
+}
+
+.reserves__item {
+    align-items: center;
+    padding: 22px 24px;
+    width: 345.33px;
+    height: 88px;
+    background: #FFFFFF;
+    border: 1px solid #E1E3F0;
+    box-shadow: 0px 64px 194px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    display: flex;
+    margin-bottom: 32px;
+}
+
+.reserves__item-name {
+    width: 55px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 20px;
+    color: #1D1D26;
+    margin-left: 12px;
+    margin-right: 90px;
+}
+
+.reserves__item-name span {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #1D1D26;
+}
