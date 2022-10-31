@@ -738,3 +738,32 @@ li {
     line-height: 20px;
     color: #4E5155;
 }
+
+.checkitout__inner {
+    align-items: center;
+    padding: 48px 310px;
+    background: linear-gradient(92.87deg, #8175FE 6.77%, #2A67F4 100%);
+    display: flex;
+    justify-content: space-around;
+}
+
+.checkitout__title {
+    width: 559px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    color: #FFFFFF;
+}
+
+.checkitout__bnt button {
+    background: #FFFFFF;
+    border-radius: 20px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #171B24;
+    width: 181px;
+    height: 60px;
+    border: none;
+}
