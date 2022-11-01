@@ -29,6 +29,7 @@ li {
     margin: 0 auto;
     background: rgba(255, 255, 255, 0.7);
     backdrop-filter: blur(250px);
+    position: relative;
 }
 
 .header__inner,
@@ -43,6 +44,13 @@ li {
 
 .header__menu {
     margin: 50px 80px 0 290px;
+}
+
+.header__menu ul li a.active {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+    color: #4BCE97;
 }
 
 .header__menu li+li {
@@ -796,6 +804,7 @@ li {
     flex-wrap: wrap;
     justify-content: space-around;
     width: 1380px;
+    margin-left: 50px;
 }
 
 .reserves__item {
@@ -826,4 +835,36 @@ li {
     font-size: 14px;
     line-height: 20px;
     color: #1D1D26;
+}
+
+.footer,
+.footer__inner {
+    padding: 60px 170px;
+    background: #171B24;
+}
+
+.footer__items {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__item-title {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 21px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin-bottom: 24px;
+}
+
+.footer__item ul li {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.footer__item ul li+li {
+    margin-top: 18px;
 }
