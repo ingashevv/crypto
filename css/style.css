@@ -868,3 +868,7 @@ li {
 .footer__item ul li+li {
     margin-top: 18px;
 }
+
+.check__inner{
+    margin: 120px 0;
+}
