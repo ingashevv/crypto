@@ -869,6 +869,114 @@ li {
     margin-top: 18px;
 }
 
-.check__inner{
-    margin: 120px 0;
+.check__inner {
+    margin: 120px 150px;
+    position: relative;
+}
+
+.check__cat img {
+    position: absolute;
+    right: -120px;
+    bottom: -90px;
+}
+
+.check__title {
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 66px;
+    color: #000000;
+    margin-bottom: 8px;
+}
+
+.check__form {
+    background: rgba(255, 255, 255, 0.5);
+    border: 1px solid #E1E3F0;
+    box-shadow: 0px 64px 194px rgba(0, 0, 0, 0.1);
+    border-radius: 30px;
+    padding: 32px;
+    width: 1100px;
+}
+
+.check__form-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.form-header__validity {
+    position: relative;
+}
+
+.header__validity-logo img {
+    position: absolute;
+    right: 70px;
+    top: 9px;
+}
+
+.header__actual-title,
+.header__validity-title {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    align-items: center;
+    color: #2C2C2C;
+    opacity: 0.7;
+}
+
+.header__actual-date,
+.header__validity-date {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    color: #2C2C2C;
+}
+
+.input__title {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    align-items: center;
+    color: #2C2C2C;
+    opacity: 0.7;
+    display: block;
+    margin-bottom: 8px;
+    margin-top: 8px;
+}
+
+.check__form-info {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.check__form-info input {
+    width: 469px;
+    height: 64px;
+    background: #FFFFFF;
+    border: 1px solid #B8CCF5;
+    border-radius: 10px;
+    outline: none;
+    padding-left: 20px;
+}
+
+.check__form-info button {
+    display: block;
+}
+
+.check__form-btn button {
+    justify-content: center;
+    align-items: center;
+    padding: 0px 32px;
+    width: 366px;
+    height: 64px;
+    background: #4BCE97;
+    box-shadow: 0px 4px 12px -1px rgba(29, 29, 38, 0.08);
+    border-radius: 20px;
+    border: none;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 26px;
+    color: #FFFFFF;
+    margin-top: 40px;
+    margin-left: 340px;
 }
