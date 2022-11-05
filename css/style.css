@@ -874,13 +874,15 @@ li {
     position: relative;
 }
 
-.check__cat img {
+.check__cat img,
+.waiting__cat img {
     position: absolute;
     right: -120px;
     bottom: -90px;
 }
 
-.check__title {
+.check__title,
+.waiting__title {
     font-weight: 900;
     font-size: 40px;
     line-height: 66px;
@@ -888,7 +890,8 @@ li {
     margin-bottom: 8px;
 }
 
-.check__form {
+.check__form,
+.waiting__table {
     background: rgba(255, 255, 255, 0.5);
     border: 1px solid #E1E3F0;
     box-shadow: 0px 64px 194px rgba(0, 0, 0, 0.1);
@@ -897,7 +900,8 @@ li {
     width: 1100px;
 }
 
-.check__form-header {
+.check__form-header,
+.waiting__form-header {
     display: flex;
     justify-content: space-between;
     margin-bottom: 40px;
@@ -979,4 +983,154 @@ li {
     color: #FFFFFF;
     margin-top: 40px;
     margin-left: 340px;
+}
+
+.waiting__inner {
+    margin: 120px 150px;
+    position: relative;
+}
+
+.confirm-title__text {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    align-items: center;
+    color: #4BCE97;
+}
+
+.waiting__confirm-info {
+    display: flex;
+}
+
+.waiting__confirm-title {
+    width: 875px;
+    height: 72px;
+    background: #4BCE97;
+    opacity: 0.1;
+    border-radius: 15px;
+    margin-bottom: 38px;
+    margin-left: 70px;
+}
+
+.confirm__item {
+    display: flex;
+}
+
+.confirm__item-title {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    align-items: center;
+    color: #2C2C2C;
+    opacity: 0.7;
+    margin-left: 8px;
+}
+
+.confirm__item-title span {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    display: block;
+    align-items: center;
+    color: #000;
+    width: 380px;
+}
+
+.confirm__item-svg {
+    margin-left: 8px;
+}
+
+.confirm__item-svg img {
+    margin-top: 20px;
+}
+
+.confirm__item+.confirm__item {
+    margin-top: 50px;
+}
+
+.confirm__items {
+    margin-bottom: 24px;
+}
+
+.confirm__code{
+    margin-left: 174px;
+}
+
+.confirm__code-img {
+    width: 140px;
+    height: 140px;
+    border: 1px solid #B8CCF5;
+    filter: drop-shadow(0px 64px 194px rgba(0, 0, 0, 0.1));
+    border-radius: 10px;
+    padding: 6px;
+}
+
+.confirm__code-title {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    align-items: center;
+    color: #000000;
+    margin-top: 8px;
+    margin-left: -12px;
+}
+
+.confirm__btn {
+    margin-left: 70px;
+}
+
+.btn-ipaid__text {
+    width: 510px;
+    height: 75px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    align-items: center;
+    text-align: center;
+    color: #2C2C2C;
+    opacity: 0.7;
+}
+
+.btn-ipaid button {
+    padding: 0px 32px;
+    width: 366px;
+    height: 64px;
+    background: #4BCE97;
+    box-shadow: 0px 4px 12px -1px rgba(29, 29, 38, 0.08);
+    border-radius: 20px;
+    border: none;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 16px;
+    margin-bottom: 52px;
+    margin-left: 70px;
+}
+
+.btn-cancle__text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    align-items: center;
+    color: #F9675A;
+    margin-left: 48px;
+}
+
+.btn-cancle button {
+    padding: 10px 40px;
+    width: 130px;
+    height: 50px;
+    border: 1px solid #F9675A;
+    box-shadow: 0px 4px 12px -1px rgba(29, 29, 38, 0.08);
+    border-radius: 20px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #2C2C2C;
+    margin-top: 26px;
+    margin-left: 192px;
 }
