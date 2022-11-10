@@ -1174,6 +1174,7 @@ li {
 
 .burger__cat.active {
     display: block;
+    z-index: 1;
 }
 
 .burger__cat-inner {
@@ -1326,6 +1327,10 @@ li {
     margin-top: 3px;
 }
 
+.media__menu {
+    display: none;
+}
+
 @media (max-width: 375px) {
 
     .header__menu,
@@ -1338,6 +1343,10 @@ li {
     .header__logo {
         margin-top: 0px;
         margin-left: 84px;
+    }
+
+    .media__menu{
+        display: block;
     }
 
     .media__menu {
@@ -1451,7 +1460,59 @@ li {
         width: 164px
     }
 
-    .footer__item + .footer__item + .footer__item{
+    .footer__item+.footer__item+.footer__item {
         margin-top: 24px;
+    }
+
+    .check__form {
+        width: 343px;
+        padding: 24px 16px;
+    }
+
+    .check__form-info {
+        display: block;
+    }
+
+    .check__inner {
+        margin: 46px 16px;
+    }
+
+    .check__form-info input {
+        width: 311px;
+        height: 64px;
+    }
+
+    .check__form-btn button {
+        width: 311px;
+        margin-left: 0px;
+    }
+
+    .check__title {
+        width: 343px;
+        height: 74px;
+        font-size: 32px;
+        line-height: 37px;
+        margin-bottom: 16px;
+    }
+
+    .check__cat img {
+        display: none;
+    }
+
+    .help__cat img {
+        width: 112px;
+        height: 112px;
+    }
+
+    .help__cat {
+        position: absolute;
+        left: -32px;
+        bottom: -104px;
+    }
+
+    .burger__cat {
+        width: 343px;
+        bottom: -80px;
+        left: 0px;
     }
 }
