@@ -370,6 +370,10 @@ li {
     margin-top: 54px;
 }
 
+.form-control span {
+    color: #1863FD;
+}
+
 .form-control p {
     font-weight: 400;
     font-size: 14px;
@@ -1331,6 +1335,30 @@ li {
     display: none;
 }
 
+.btc {
+    left: 90px !important;
+}
+
+.usdt {
+    left: 141px !important;
+}
+
+.eth {
+    left: 110px !important;
+}
+
+.ltc {
+    left: 96px !important;
+}
+
+.xpr {
+    left: 86px !important;
+}
+
+.uah {
+    left: 221px !important;
+}
+
 @media (max-width: 375px) {
 
     .header__menu,
@@ -1345,7 +1373,7 @@ li {
         margin-left: 84px;
     }
 
-    .media__menu{
+    .media__menu {
         display: block;
     }
 
@@ -1514,5 +1542,201 @@ li {
         width: 343px;
         bottom: -80px;
         left: 0px;
+    }
+
+    .exchange__inner {
+        display: block;
+        margin-left: 8px;
+        position: relative;
+    }
+
+    .exchange__description{
+        position: absolute;
+        top: 550px;
+        height: 430px;
+    }
+
+    .exchange__description-title {
+        width: 343px;
+        font-size: 40px;
+        line-height: 45px;
+    }
+
+    .exchange__description-line img {
+        width: 343px;
+        height: 10px;
+    }
+
+    .exchange__description-text {
+        width: 343px;
+        height: 75px;
+        font-size: 14px;
+        line-height: 26px;
+    }
+
+    .usdt,
+    .eth,
+    .ltc,
+    .xpr,
+    .uah,
+    .ethereum {
+        display: none;
+    }
+
+    .exchange__description-ul ul li img {
+        left: 8px;
+    }
+
+    .litecoin {
+        width: 86px;
+        margin-top: 45px;
+        margin-left: 0px;
+        position: absolute !important;
+    }
+
+    .bitcoin {
+        position: absolute !important;
+        left: 225px;
+        width: 115px;
+    }
+
+    .ripple {
+        width: 82px;
+        margin-left: 95px;
+        margin-top: 45px;
+        position: absolute !important;
+    }
+
+    .tether {
+        width: 134px;
+        margin-top: 45px;
+        margin-left: 185px;
+        position: absolute !important;
+    }
+
+    .exchange__description-ul ul li span {
+        left: 31px;
+        top: 10px;
+        font-size: 13px;
+    }
+
+    .btc {
+        left: 82px !important;
+    }
+
+    .exchange__description-ul {
+        position: relative;
+    }
+
+    .visamastercard {
+        width: 218px;
+        position: relative;
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+
+    .exchange__description-btn button {
+        width: 164px;
+        height: 40px;
+        font-size: 14px;
+        line-height: 30px;
+    }
+
+    .exchange__description-play a img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .exchange__description-play {
+        margin-top: -2px;
+        margin-left: 16px;
+    }
+
+    .exchange__description-play span {
+        width: 98px;
+        height: 30px;
+        font-size: 15px;
+        line-height: 30px;
+        color: #3734A9;
+        top: 10px;
+    }
+
+    .see {
+        display: none;
+    }
+
+    .exchange__table {
+        box-shadow: none;
+        border: none;
+        background-color: transparent;
+        padding: 0;
+    }
+
+    .exchange__currencies {
+        width: 343px;
+        height: 179px;
+        margin-left: 8px;
+    }
+
+    .exchange__currencies::before {
+        width: 321.5px;
+        left: 10px;
+    }
+
+    .exchange__table-title {
+        display: none;
+    }
+
+    .exchange__table-input input {
+        margin-left: 8px;
+        width: 343px;
+        height: 64px;
+    }
+
+    .exchange__info {
+        width: 104.33px;
+        height: 76px;
+        padding: 8px;
+    }
+
+    .exchange__info-title {
+        width: 88.33px;
+        height: 20px;
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    .exchange__table-info {
+        width: 343px;
+        margin-left: 8px;
+    }
+
+    .exchange__info-sum {
+        width: 89.33px;
+        height: 36px;
+        font-size: 13px;
+        line-height: 18px;
+    }
+
+    .exchange__table-btn button {
+        width: 343px;
+        height: 48px;
+        left: 8px;
+        bottom: 206px;
+    }
+
+    .form-control {
+        margin-top: 80px;
+        margin-left: 8px;
+    }
+
+    .exchange__table::after {
+        width: 342.5px;
+        bottom: 145px;
+    }
+
+    .exchange__table-footer {
+        margin-top: 38px;
+        margin-left: 35px;
     }
 }
