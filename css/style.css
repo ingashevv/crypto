@@ -1774,4 +1774,68 @@ li {
     .benefits__item+.benefits__item {
         margin-top: 16px;
     }
+
+    .choose__inner {
+        position: relative;
+        margin-left: 8px;
+        display: block;
+    }
+
+    .choose__tables-secure {
+        position: unset;
+        margin-top: 10px;
+        width: 342px;
+    }
+
+    .choose__info {
+        margin-left: 8px;
+    }
+
+    .choose__info-title {
+        width: 371px;
+        height: 125px;
+        font-size: 36px;
+        line-height: 45px;
+    }
+
+    .choose__info-text {
+        width: 330px;
+        height: 90px;
+        font-size: 16px;
+        line-height: 30px;
+        margin-bottom: 40px;
+    }
+
+    .choose__info::before {
+        width: 330px;
+        bottom: 170px;
+    }
+
+    .choose__tables {
+        position: absolute;
+        margin-top: 430px;
+    }
+
+    .choose-star img {
+        position: absolute;
+        top: 394px;
+        left: 272px;
+        z-index: 2;
+    }
+
+    .secure__logo {
+        margin-left: 28%;
+    }
+
+    .secure__text {
+        margin-left: 8px;
+    }
+
+    .secure__title {
+        margin-left: -8px;
+    }
+
+    .secure__btn button {
+        margin-left: 48px;
+    }
 }
