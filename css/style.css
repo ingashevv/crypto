@@ -1901,4 +1901,22 @@ li {
         top: 60px;
         right: 4px;
     }
+
+    .checkitout__inner {
+        padding: 16px;
+        display: block;
+    }
+
+    .checkitout__title {
+        width: 347px;
+        height: 64px;
+        font-size: 22px;
+        line-height: 32px;
+        text-align: center;
+    }
+
+    .checkitout__bnt button {
+        margin-top: 16px;
+        margin-left: 70px;
+    }
 }
