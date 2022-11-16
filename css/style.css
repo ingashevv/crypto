@@ -1919,4 +1919,65 @@ li {
         margin-top: 16px;
         margin-left: 70px;
     }
+
+    .reserves__text {
+        margin-left: 8px;
+        width: 348px;
+        height: 90px;
+        font-size: 15px;
+        line-height: 30px;
+    }
+
+    .reserves__title {
+        margin-left: 8px;
+        width: 380px;
+        height: 60px;
+        font-size: 36px;
+        line-height: 60px;
+    }
+
+    .reserves__item:nth-child(9) {
+        display: none;
+    }
+
+    .reserves__items {
+        justify-content: space-between;
+        width: 344px;
+        margin-left: 8px;
+        position: relative;
+    }
+
+    .reserves__item {
+        padding: 16px;
+        width: 164px;
+        height: 112px;
+        position: relative;
+    }
+
+    .reserves__item-logo {
+        margin-top: -36px;
+    }
+
+    .reserves__item-name {
+        margin: -36px 0 0 12;
+        margin-left: 12px;
+        margin-right: 0px;
+        margin-top: -36px;
+    }
+
+    .reserves__item-num {
+        position: absolute;
+        bottom: 16px;
+        left: 30.5px;
+    }
+
+    .reserves__btn button {
+        width: 163px;
+        height: 50px;
+        margin-left: 0px;
+        margin-top: 0px;
+        position: absolute;
+        top: 324px;
+        left: 96px;
+    }
 }
