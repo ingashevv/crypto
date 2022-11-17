@@ -9,6 +9,7 @@
 body {
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
+    overflow-x: hidden;
 }
 
 a {
@@ -27,8 +28,6 @@ li {
 .container {
     width: 1440px;
     margin: 0 auto;
-    background: rgba(255, 255, 255, 0.7);
-    backdrop-filter: blur(250px);
     position: relative;
 }
 
@@ -93,6 +92,13 @@ li {
     display: flex;
     margin-left: 136px;
     margin-top: 60px;
+    position: relative;
+}
+
+.cat__cosmo {
+    position: absolute;
+    right: 8px;
+    top: 585px;
 }
 
 .exchange__description {
@@ -1376,6 +1382,10 @@ li {
     display: none;
 }
 
+.responsive-comapanies {
+    display: none;
+}
+
 @media (max-width: 375px) {
 
     .header__menu,
@@ -1565,6 +1575,7 @@ li {
         display: block;
         margin-left: 8px;
         position: relative;
+        margin-top: 0;
     }
 
     .exchange__description {
@@ -1687,6 +1698,7 @@ li {
         border: none;
         background-color: transparent;
         padding: 0;
+        margin-left: -8px;
     }
 
     .exchange__currencies {
@@ -1758,13 +1770,14 @@ li {
     }
 
     .benefits__inner {
-        margin-left: 16px;
+        margin-left: 8px;
+        margin-top: 440px;
     }
 
     .benefits__inner-title {
-        width: 284px;
+        width: 238px;
         height: 60px;
-        font-size: 32px;
+        font-size: 26px;
         line-height: 60px;
         color: #000000;
         margin-bottom: 10px;
@@ -1783,6 +1796,7 @@ li {
         position: relative;
         margin-left: 8px;
         display: block;
+        margin-top: 60px;
     }
 
     .choose__tables-secure {
@@ -1841,6 +1855,10 @@ li {
 
     .secure__btn button {
         margin-left: 48px;
+    }
+
+    .advantages__inner {
+        margin-top: 770px;
     }
 
     .advantages__title {
@@ -1908,7 +1926,7 @@ li {
     }
 
     .checkitout__title {
-        width: 347px;
+        width: 335px;
         height: 64px;
         font-size: 22px;
         line-height: 32px;
@@ -1918,6 +1936,10 @@ li {
     .checkitout__bnt button {
         margin-top: 16px;
         margin-left: 70px;
+    }
+
+    .reserves__inner {
+        margin: 60px 0 120px 0;
     }
 
     .reserves__text {
@@ -1979,5 +2001,55 @@ li {
         position: absolute;
         top: 324px;
         left: 96px;
+    }
+
+    .users__title {
+        margin-left: 8px;
+        width: 343px;
+        height: 90px;
+        font-size: 40px;
+        line-height: 45px;
+        margin-bottom: 31px;
+    }
+
+    .users__slider-items {
+        margin-left: 8px;
+    }
+
+    .normal-companies {
+        display: none;
+    }
+
+    .responsive-comapanies {
+        display: block;
+    }
+
+    .companies {
+        margin-left: 8px;
+        margin-bottom: 24px;
+    }
+
+    .users__slider-item {
+        padding: 24px 16px;
+        width: 299px;
+        height: 402px;
+    }
+
+    .users__slider-text {
+        margin-bottom: 24px;
+    }
+
+    .users__inner {
+        margin-bottom: 60px;
+    }
+
+    .cat__cosmo {
+        left: 256px;
+        top: 1014px;
+    }
+
+    .cat__cosmo img {
+        width: 113px;
+        height: 152px;
     }
 }
