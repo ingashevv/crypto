@@ -2,13 +2,23 @@ $(function () {
 
     $('.burger__cat-close').on('click', function () {
         $('.burger__cat').removeClass('active');
-    })
+    });
 
+
+    $('.burger__close').on('click', function () {
+        $('.burger__menu').removeClass('active');
+    });
 
 });
-const burgerMenu = document.querySelector('.help__cat');
-const headerMenu = document.querySelector('.burger__cat');
+const burgerCatMenu = document.querySelector('.help__cat');
+const catMenu = document.querySelector('.burger__cat');
 
-burgerMenu.addEventListener('click', function () {
+burgerCatMenu && burgerCatMenu.addEventListener('click', function () {
+    catMenu.classList.toggle('active');
+});
+
+const burgerMenu = document.querySelector('.media__menu');
+const headerMenu = document.querySelector('.burger__menu');
+burgerMenu && burgerMenu.addEventListener('click', function () {
     headerMenu.classList.toggle('active');
-})
+});

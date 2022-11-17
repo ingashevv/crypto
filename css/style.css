@@ -37,6 +37,76 @@ li {
     display: flex;
 }
 
+.header__inner {
+    position: relative;
+}
+
+.burger__menu {
+    width: 375px;
+    height: 414px;
+    background-color: #fff;
+    position: absolute;
+    left: 0;
+    z-index: 3;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    display: none;
+}
+
+.burger__menu.active{
+    display: block;
+}
+
+.burger__container {
+    position: relative;
+}
+
+.burger__close {
+    position: absolute;
+    top: 19px;
+    left: 16px;
+    cursor: pointer;
+}
+
+.burger__logo {
+    margin-left: 121px;
+}
+
+.burger__menu .header__lan-icon {
+    position: absolute;
+    right: 40px;
+    top: 80px;
+}
+
+.burger__menu .header__lan-arrow {
+    position: absolute;
+    right: 59px;
+    top: 80px;
+}
+
+.burger__menu-nav ul li:nth-child(7) {
+    background: #4BCE97;
+    border-radius: 20px;
+    width: 137px;
+    height: 57px;
+    margin-left: 113px;
+    padding-top: 14px;
+}
+
+.burger__menu-nav ul li a span{
+    color: #fff;
+}
+
+.burger__menu-nav {
+    margin-left: 16px;
+    align-items: center;
+    text-align: center;
+}
+
+.burger__menu-nav ul li+li {
+    margin-top: 16px;
+}
+
 .header__logo {
     margin-top: 22px;
 }
@@ -1042,14 +1112,21 @@ li {
 
 .confirm-title__text {
     font-weight: 700;
-    font-size: 32px;
+    font-size: 31px;
     line-height: 40px;
     align-items: center;
     color: #4BCE97;
     opacity: 1.0;
+    position: absolute;
+    top: 16px;
+    left: 85px;
 }
 
 .waiting__confirm-title {
+    position: relative;
+}
+
+.confirm-title__bg {
     width: 875px;
     height: 72px;
     background-color: #4BCE97;
@@ -1411,17 +1488,19 @@ li {
     }
 
     .waiting__inner {
-        margin: 120px 0;
+        margin: 46px 0 60px 0;
     }
 
     .waiting__title {
         font-size: 29px;
         margin-left: 16px;
+        margin-bottom: 53px;
     }
 
     .waiting__table {
         width: 343px;
         padding: 24px 16px;
+        margin-left: 16px;
     }
 
     .waiting__confirm-title {
@@ -1430,8 +1509,24 @@ li {
         margin-bottom: 22px;
     }
 
+    .confirm-title__bg {
+        width: 311px;
+        height: 66px;
+        background-color: #4BCE97;
+        border-radius: 15px;
+        margin-bottom: 38px;
+        margin-left: 0px;
+        opacity: 0.1;
+    }
+
     .confirm-title__text {
         font-size: 22px;
+        width: 295px;
+        height: 50px;
+        font-size: 20px;
+        line-height: 25px;
+        top: 8px;
+        left: 20px;
     }
 
     .confirm__item+.confirm__item {
@@ -1489,7 +1584,7 @@ li {
     .waiting__cat img {
         width: 137px;
         height: 185px;
-        top: 442px;
+        top: 495px;
         left: 204px;
     }
 
@@ -1573,7 +1668,7 @@ li {
 
     .exchange__inner {
         display: block;
-        margin-left: 8px;
+        margin-left: 16px;
         position: relative;
         margin-top: 0;
     }
@@ -1698,13 +1793,13 @@ li {
         border: none;
         background-color: transparent;
         padding: 0;
-        margin-left: -8px;
+        margin-left: -16px;
     }
 
     .exchange__currencies {
         width: 343px;
         height: 179px;
-        margin-left: 8px;
+        margin-left: 16px;
     }
 
     .exchange__currencies::before {
@@ -1717,7 +1812,7 @@ li {
     }
 
     .exchange__table-input input {
-        margin-left: 8px;
+        margin-left: 16px;
         width: 343px;
         height: 64px;
     }
@@ -1737,7 +1832,7 @@ li {
 
     .exchange__table-info {
         width: 343px;
-        margin-left: 8px;
+        margin-left: 16px;
     }
 
     .exchange__info-sum {
@@ -1756,12 +1851,13 @@ li {
 
     .form-control {
         margin-top: 80px;
-        margin-left: 8px;
+        margin-left: 16px;
     }
 
     .exchange__table::after {
         width: 342.5px;
         bottom: 145px;
+        left: 8px;
     }
 
     .exchange__table-footer {
@@ -1770,7 +1866,7 @@ li {
     }
 
     .benefits__inner {
-        margin-left: 8px;
+        margin-left: 16px;
         margin-top: 440px;
     }
 
@@ -1781,7 +1877,7 @@ li {
         line-height: 60px;
         color: #000000;
         margin-bottom: 10px;
-        margin-left: 8px;
+        margin-left: 16px;
     }
 
     .benefits__inner-items {
@@ -1794,7 +1890,7 @@ li {
 
     .choose__inner {
         position: relative;
-        margin-left: 8px;
+        margin-left: 16px;
         display: block;
         margin-top: 60px;
     }
@@ -1806,7 +1902,7 @@ li {
     }
 
     .choose__info {
-        margin-left: 8px;
+        margin-left: 16px;
     }
 
     .choose__info-title {
@@ -1846,7 +1942,7 @@ li {
     }
 
     .secure__text {
-        margin-left: 8px;
+        margin-left: 16px;
     }
 
     .secure__title {
@@ -1862,13 +1958,13 @@ li {
     }
 
     .advantages__title {
-        margin-left: 8px;
+        margin-left: 16px;
         font-size: 40px;
         line-height: 60px;
     }
 
     .advantages__text {
-        margin-left: 8px;
+        margin-left: 16px;
         width: 346px;
         height: 120px;
         font-size: 17px;
@@ -1877,7 +1973,7 @@ li {
 
     .advantages__items {
         display: block;
-        margin-left: 8px;
+        margin-left: 16px;
         margin-top: 24px;
     }
 
@@ -1943,7 +2039,7 @@ li {
     }
 
     .reserves__text {
-        margin-left: 8px;
+        margin-left: 16px;
         width: 348px;
         height: 90px;
         font-size: 15px;
@@ -1951,7 +2047,7 @@ li {
     }
 
     .reserves__title {
-        margin-left: 8px;
+        margin-left: 16px;
         width: 380px;
         height: 60px;
         font-size: 36px;
@@ -1965,7 +2061,7 @@ li {
     .reserves__items {
         justify-content: space-between;
         width: 344px;
-        margin-left: 8px;
+        margin-left: 16px;
         position: relative;
     }
 
@@ -2004,7 +2100,7 @@ li {
     }
 
     .users__title {
-        margin-left: 8px;
+        margin-left: 16px;
         width: 343px;
         height: 90px;
         font-size: 40px;
@@ -2013,7 +2109,7 @@ li {
     }
 
     .users__slider-items {
-        margin-left: 8px;
+        margin-left: 16px;
     }
 
     .normal-companies {
@@ -2025,7 +2121,7 @@ li {
     }
 
     .companies {
-        margin-left: 8px;
+        margin-left: 16px;
         margin-bottom: 24px;
     }
 
