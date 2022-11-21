@@ -450,9 +450,31 @@ li {
     margin-top: 5px;
 }
 
-.form-control {
+.form-control,
+.cheking {
     display: flex;
-    margin-top: 54px;
+    align-items: center;
+}
+
+.cheking{
+    margin-top: 32px;
+}
+
+.cheking button {
+    align-items: center;
+    width: 192px;
+    height: 64px;
+    background: linear-gradient(92.87deg, #8175FE 6.77%, #2A67F4 100%);
+    box-shadow: 0px 4px 12px -1px rgba(29, 29, 38, 0.08);
+    border-radius: 20px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+    color: #FFFFFF;
+    border: none;
+    margin-left: 12px;
+
 }
 
 .form-control span {
@@ -472,24 +494,6 @@ li {
     display: flex;
 }
 
-.exchange__table-btn button {
-    width: 192px;
-    height: 64px;
-    background: linear-gradient(92.87deg, #8175FE 6.77%, #2A67F4 100%);
-    box-shadow: 0px 4px 12px -1px rgba(29, 29, 38, 0.08);
-    border-radius: 20px;
-    border: none;
-    cursor: pointer;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 26px;
-    text-align: center;
-    color: #FFFFFF;
-    position: absolute;
-    right: 28px;
-    bottom: 84px;
-}
-
 .exchange__table::after {
     content: '';
     position: absolute;
@@ -501,8 +505,9 @@ li {
 
 .exchange__table-footer {
     display: flex;
-    margin-top: 68px;
-    margin-left: 100px;
+    align-items: center;
+    margin-left: 110px;
+    margin-top: 40px;
 }
 
 .exchange__table-footer p {
