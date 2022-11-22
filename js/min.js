@@ -9,6 +9,10 @@ $(function () {
         $('.burger__menu').removeClass('active');
     });
 
+    $('.users__slider-items').slick({
+        slidesToShow: 2,
+    });
+
 });
 const burgerCatMenu = document.querySelector('.help__cat');
 const catMenu = document.querySelector('.burger__cat');
