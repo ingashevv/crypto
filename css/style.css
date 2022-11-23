@@ -1502,7 +1502,7 @@ li {
     margin-right: 12px;
 }
 
-.list-number span:nth-child(2){
+.list-number span:nth-child(2) {
     margin-right: 12px;
 }
 
@@ -2235,7 +2235,7 @@ li {
 
     .users__slider-item {
         padding: 24px 16px;
-        width: 299px;
+        width: 299px !important;
         height: 402px;
     }
 
@@ -2255,5 +2255,40 @@ li {
     .cat__cosmo img {
         width: 113px;
         height: 152px;
+    }
+
+    .slick-dots {
+        display: flex;
+        margin-left: 135px;
+    }
+
+    .slick-dots button {
+        width: 10px;
+        height: 10px;
+        font-size: 0px;
+        background-color: #2C2C2C;
+        border-radius: 50%;
+        opacity: 0.2;
+    }
+
+    .slick-active button {
+        background-color: #4BCE97;
+        width: 10px;
+        height: 10px;
+        opacity: 1;
+        border: none;
+    }
+
+    .slick-dots li+li {
+        margin-left: 6px;
+    }
+
+    .list-number,
+    .slick-arrow {
+        display: none;
+    }
+
+    .slick-track{
+        margin-left: 1424px;
     }
 }

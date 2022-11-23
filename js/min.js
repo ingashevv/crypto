@@ -11,6 +11,14 @@ $(function () {
 
     $('.users__slider-items').slick({
         slidesToShow: 2,
+        responsive: [
+            {
+              breakpoint: 376,
+              settings: {
+                dots: true,
+              }
+            },
+          ]
     });
 
 });
